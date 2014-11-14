@@ -1,0 +1,42 @@
+body {
+  background-color: #ebebeb;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: #555555;
+  overflow-y: scroll; }
+
+.container {
+  padding-top: 3em; }
+
+.white-well {
+  background-color: #fff;
+  padding: 20px; }
+
+ ul {
+  padding-left: 5px;
+  list-style-type: none; }
+   ul li {
+    margin-bottom: 1em; }
+     ul li input[type="radio"] + label {
+      font-size: 1.125em;
+      font-weight: 300;
+      cursor: pointer; }
+       ul li input[type="radio"] + label:before {
+        content: '\f00c';
+        font-family: 'FontAwesome';
+        font-size: 12px;
+        color: transparent;
+        padding: 3px;
+        background-color: #d7d7d7;
+        border-radius: 50%;
+        margin-right: 10px;
+        vertical-align: 1px; }
+       ul li input[type="radio"] + label:hover {
+        opacity: 0.9; }
+     ul li input[type="radio"]:checked + label:before {
+      background-color: #2de1a8;
+      color: white; }
+     ul li input[type="radio"]:checked + label:hover {
+      opacity: 1; }
+ input[type="radio"] {
+  display: none; }
