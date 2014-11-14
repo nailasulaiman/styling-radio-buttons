@@ -1,95 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Styling Radio Buttons</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Styling radio buttons : Styling radio buttons">
+<!--include stylesheets-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Styling radio buttons</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/nailasulaiman/styling-radio-buttons">View on GitHub</a>
-
-          <h1 id="project_title">Styling radio buttons</h1>
-          <h2 id="project_tagline">Styling radio buttons</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/nailasulaiman/styling-radio-buttons/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/nailasulaiman/styling-radio-buttons/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>&lt;!DOCTYPE html&gt;
-
-</p>
-
-
-
-Styling Radio Buttons
-    
-    
-    
-
-
-
-<pre><code>&lt;link rel="stylesheet" href="style.css"&gt;
-</code></pre>
-
-<p></p>
-
-<p></p>
-    <div>
-        <div>
-            <div>
-                <ul>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-5 white-well">
+                <ul class="radios">
                     <li>
-                         
-                        <i></i>
+                        <input type="radio" name="mode-facet" id="drive-facet" value="drive" checked> 
+                        <label for="drive-facet"><i class="fa fa-facebook"></i></label>
                     </li>
                     <li>
-                         
-                        <i></i>
+                        <input type="radio" name="mode-facet" id="walk-facet" value="walk"> 
+                        <label for="walk-facet"><i class="fa fa-twitter"></i></label>
                     </li>
                     <li>
-                         
-                        <i></i>
+                        <input type="radio" name="mode-facet" id="public-facet" value="public"> 
+                        <label for="public-facet"><i class="fa fa-linkedin"></i></label>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
 
-<pre><code>&lt;!-- Scripts --&gt;
-&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"&gt;&lt;/script&gt;
-&lt;script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"&gt;&lt;/script&gt;
-</code></pre>
-
-<p>
-</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Styling radio buttons maintained by <a href="https://github.com/nailasulaiman">nailasulaiman</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
 </html>
